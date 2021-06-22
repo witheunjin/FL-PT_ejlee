@@ -12,7 +12,7 @@ updated: June, 22, 2021
 ```
 * `epochs` : A number of 'Global Round'
 * `local_ep` : A number of 'Local Epoch'
-* 
+
 **RESULT**
 ```
 
