@@ -295,7 +295,9 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '../save/nn_mnist_mlp_10.png'
 ```
 OOPS! There is an error... But it's okay I can fix it.
+
 As you see, an error `No such file or directory: '../save/nn_mnist_mlp_10.png'` is occurred.
+
 So the 2nd trial is about 'how I fix this error'.
 
 ### 2nd Trial
@@ -303,3 +305,7 @@ So I looked for 'where the error is occurred' and I can see a related code in `.
 ```python3
 92  plt.savefig('../save/nn_{}_{}_{}.png'.format(args.dataset, args.model, args.epochs))
 ```
+Umm.. Let me think about a solution.
+
+
+
